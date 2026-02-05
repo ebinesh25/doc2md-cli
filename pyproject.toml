@@ -1,0 +1,10 @@
+[project]
+name = "doc2md"
+version = "0.1.0"
+description = "Convert DOCX files to Markdown using Playwright"
+dependencies = [
+  "playwright"
+]
+
+[project.scripts]
+doc2md = "doc2md.cli:main"
