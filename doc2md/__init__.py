@@ -6,7 +6,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
 
 def convert_docx_to_md(
